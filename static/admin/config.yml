@@ -17,3 +17,13 @@ collections:
       - { name: body, label: Body, widget: markdown }
       - { name: logo, label: Logo, widget: file }
       - { name : soldOut, label: SoldOut, widget: boolean, default: true }
+  
+  - name: gallery
+    label: Gallery
+    folder: gallery
+    create: true
+    fields:
+      - { name: title, label: title }
+      - { name: image, label: Image, widget: image }
+      - { name: description, label: Description, widget: markdown }
+      - { name: tags, label: Tags, widget: list }
