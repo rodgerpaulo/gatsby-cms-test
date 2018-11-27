@@ -15,3 +15,5 @@ collections:
       - { name: date, label: Date, widget: date }
       - { name: title, label: Title }
       - { name: body, label: Body, widget: markdown }
+      - { name: logo, label: Logo, widget: file }
+      - { name : soldOut, label: Sold Out, widget: boolean, default: true }
