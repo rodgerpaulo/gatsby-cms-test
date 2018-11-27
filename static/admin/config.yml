@@ -16,4 +16,4 @@ collections:
       - { name: title, label: Title }
       - { name: body, label: Body, widget: markdown }
       - { name: logo, label: Logo, widget: file }
-      - { name : soldOut, label: Sold Out, widget: boolean, default: true }
+      - { name : soldOut, label: SoldOut, widget: boolean, default: true }
