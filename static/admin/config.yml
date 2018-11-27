@@ -1,5 +1,6 @@
 backend:
   name: test-repo
+  repo: rodgerpaulo/gatsby-cms-test
 
 media_folder: static/assets
 public_folder: assets
